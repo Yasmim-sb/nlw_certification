@@ -1,8 +1,7 @@
-package com.nlw.certification.controller;
+package com.nlw.certification.controllers;
 
 import com.nlw.certification.dto.VerifyHasCertificationDTO;
 import com.nlw.certification.useCases.VerifyHasCertificationUseCase;
-import jakarta.persistence.Entity;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

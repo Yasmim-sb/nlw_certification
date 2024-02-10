@@ -18,9 +18,10 @@ public class QuestionEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
+    @Column(columnDefinition = "CHAR(36)")
     private UUID id;
 
-    @Column(length = 50)
+    @Column(length = 100)
     private String technology;
 
     private String description;

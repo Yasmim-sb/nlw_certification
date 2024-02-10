@@ -17,6 +17,7 @@ import java.util.UUID;
 public class CertificationStudentEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
+    @Column(columnDefinition = "CHAR(36)")
     private UUID id;
 
     @JoinColumn(name= "student_id")

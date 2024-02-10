@@ -16,6 +16,7 @@ public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
+    @Column(columnDefinition = "CHAR(36)")
     private UUID id;
 
     @Column(unique = true, nullable = false)
