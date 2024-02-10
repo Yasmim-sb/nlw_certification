@@ -1,4 +1,4 @@
-package com.nlw.certification.controller;
+package com.nlw.certification.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
