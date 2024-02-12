@@ -21,6 +21,7 @@ public class CertificationStudentEntity {
     private UUID id;
 
     @JoinColumn(name= "student_id")
+    @Column(columnDefinition = "CHAR(36)")
     private UUID studentID;
 
     @Column(length = 100)

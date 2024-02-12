@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
 
 import java.time.LocalDateTime;
@@ -20,7 +19,7 @@ public class AnswerCertificationsEntity {
     @Column(columnDefinition = "CHAR(36)")
     private UUID id;
 
-    @Column(name = "certification_id")
+    @Column(name = "certification_id", columnDefinition = "CHAR(36)")
     private UUID certificationID;
 
     @ManyToOne()
@@ -31,7 +30,7 @@ public class AnswerCertificationsEntity {
     @JoinColumn(name = "student_id", insertable = false, updatable = false)
     private Student student;
 
-    @Column(name = "student_id")
+    @Column(name = "student_id",columnDefinition = "CHAR(36)")
     private UUID studentID;
 
     @Column(name = "question_id")
