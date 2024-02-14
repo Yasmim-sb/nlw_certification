@@ -1,10 +1,10 @@
-package com.nlw.certification.controllers;
+package com.nlw.certification.questions.controllers;
 
-import com.nlw.certification.dto.AlternativeResultDTO;
-import com.nlw.certification.dto.QuestionResultDTO;
-import com.nlw.certification.questions.AlternativesEntity;
-import com.nlw.certification.questions.QuestionEntity;
-import com.nlw.certification.repositories.QuestionRepository;
+import com.nlw.certification.questions.dto.AlternativeResultDTO;
+import com.nlw.certification.questions.dto.QuestionResultDTO;
+import com.nlw.certification.questions.entities.AlternativesEntity;
+import com.nlw.certification.questions.entities.QuestionEntity;
+import com.nlw.certification.questions.repository.QuestionRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

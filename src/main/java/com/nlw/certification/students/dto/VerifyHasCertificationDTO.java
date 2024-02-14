@@ -1,4 +1,4 @@
-package com.nlw.certification.dto;
+package com.nlw.certification.students.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

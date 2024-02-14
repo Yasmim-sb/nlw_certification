@@ -1,6 +1,6 @@
-package com.nlw.certification.repositories;
+package com.nlw.certification.questions.repository;
 
-import com.nlw.certification.questions.QuestionEntity;
+import com.nlw.certification.questions.entities.QuestionEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

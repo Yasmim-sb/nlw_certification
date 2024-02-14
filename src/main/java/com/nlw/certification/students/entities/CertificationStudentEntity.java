@@ -1,7 +1,8 @@
-package com.nlw.certification.entities;
+package com.nlw.certification.students.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
@@ -12,6 +13,7 @@ import java.util.UUID;
 
 @Data
 @NoArgsConstructor
+@Builder
 @AllArgsConstructor
 @Entity(name = "certifications")
 public class CertificationStudentEntity {

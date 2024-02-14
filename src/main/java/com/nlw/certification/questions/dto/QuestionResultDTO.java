@@ -1,4 +1,4 @@
-package com.nlw.certification.dto;
+package com.nlw.certification.questions.dto;
 
 import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;

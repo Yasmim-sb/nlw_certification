@@ -1,4 +1,4 @@
-package com.nlw.certification.entities;
+package com.nlw.certification.students.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,6 +1,6 @@
-package com.nlw.certification.repositories;
+package com.nlw.certification.students.repositories;
 
-import com.nlw.certification.entities.CertificationStudentEntity;
+import com.nlw.certification.students.entities.CertificationStudentEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
