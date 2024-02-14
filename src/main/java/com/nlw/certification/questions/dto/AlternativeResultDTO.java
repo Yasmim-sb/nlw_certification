@@ -1,4 +1,4 @@
-package com.nlw.certification.dto;
+package com.nlw.certification.questions.dto;
 
 import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;
@@ -6,7 +6,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
 import java.util.UUID;
 
 @NoArgsConstructor

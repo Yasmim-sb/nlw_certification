@@ -1,4 +1,4 @@
-package com.nlw.certification.seed;
+package com.nlw.certification.students.seed;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;

@@ -1,4 +1,4 @@
-package com.nlw.certification.questions;
+package com.nlw.certification.questions.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -7,31 +7,24 @@ import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
 
 import java.time.LocalDateTime;
-import java.util.List;
 import java.util.UUID;
 
+@Entity(name= "alternatives")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity(name = "questions")
-public class QuestionEntity {
+public class AlternativesEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     @Column(columnDefinition = "CHAR(36)")
     private UUID id;
 
-    @Column(length = 100)
-    private String technology;
+    private boolean isCorrect;
 
     private String description;
 
-    @OneToMany
-    @JoinColumn(name= "question_id")
-    private List<AlternativesEntity> alternatives;
-
     @CreationTimestamp
     private LocalDateTime createAt;
-
 
 }
